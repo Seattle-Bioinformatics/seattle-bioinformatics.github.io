@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Seattle Bioinformatics</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <a href="index.html" class="text-xl font-bold">Seattle Bioinformatics</a>
+      <div class="space-x-4">
+        <a href="about.html" class="hover:text-blue-600">About</a>
+        <a href="portfolio.html" class="text-blue-600 font-semibold">Portfolio</a>
+        <a href="contact.html" class="hover:text-blue-600">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Projects -->
+  <section class="container mx-auto p-8">
+    <h2 class="text-3xl font-bold mb-8">Our Work</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg">
+        <h3 class="font-semibold text-xl mb-2">NGS Pipeline Automation</h3>
+        <p>Designed scalable pipelines for RNA-seq and whole genome analysis using Snakemake and Nextflow.</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg">
+        <h3 class="font-semibold text-xl mb-2">Single-cell Data Integration</h3>
+        <p>Analyzed scRNA-seq datasets to identify novel biomarkers in pediatric leukemia samples.</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg">
+        <h3 class="font-semibold text-xl mb-2">Custom Dashboards</h3>
+        <p>Built RShiny dashboards for clinical teams to visualize patient sequencing data in real time.</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
